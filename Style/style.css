@@ -42,13 +42,24 @@ nav div img {
 nav ul li a {
     text-decoration: none;
     color: black;
+    font-weight: 600;
+    padding-bottom: 8px;
+}
+
+nav ul li a:hover {
+    color: gray;
+    border-bottom:  1px solid gray;
 }
 
 
 
 
-
-
+/* Tabl;et */
+@media (max-width: 758px) {
+    html {
+      font-size: 62.5%;
+    }
+}
 /* Handpone */
 @media (max-width: 450px) {
     html {
