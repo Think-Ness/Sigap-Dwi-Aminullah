@@ -43,3 +43,16 @@ nav ul li a {
     text-decoration: none;
     color: black;
 }
+
+
+
+
+
+
+/* Handpone */
+@media (max-width: 450px) {
+    html {
+      font-size: 55%;
+    }
+  }
+  
