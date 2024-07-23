@@ -9,11 +9,18 @@ body {
     background-color: #f4f4f4f4;
 }
 
+/* Navbar Style */
+
 nav{
     background-color:  white;
     display: flex;
     justify-content: space-between;
     padding: 1rem 2rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
 }
 
 nav ul {
@@ -35,7 +42,7 @@ nav div h3 {
 }
 
 nav div img {
-    width: 60px;
+    width: 50px;
     border-radius: 50px;
 }
 
@@ -50,8 +57,20 @@ nav ul li a:hover {
     color: gray;
     border-bottom:  1px solid gray;
 }
+/* navbar selesai */
 
+/* header konten */
+section {
+    /* margin-top: 6rem; */
+    align-items: center;
+}
+ .konten {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
 
 
 /* Tabl;et */
