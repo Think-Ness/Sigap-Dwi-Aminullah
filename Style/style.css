@@ -105,10 +105,10 @@ section {
 
 
 
-.isi-konten p, .isi-konten h1{
-    /* border: 1px solid black; */
-    /* width: 20%; */
-}
+/* .isi-konten p, .isi-konten h1{
+    border: 1px solid black;
+    width: 20%;
+} */
 
 img {
     display: block;
