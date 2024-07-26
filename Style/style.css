@@ -25,6 +25,9 @@ body {
     background-color: #f4f4f4f4;
 }
 
+.bulat {
+    border-radius: 50px;
+}
 /* Navbar Style */
 
 nav{
