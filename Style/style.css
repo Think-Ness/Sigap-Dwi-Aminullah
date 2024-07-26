@@ -91,6 +91,7 @@ section {
 }
 
 .konten{
+    padding: 1rem 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -99,14 +100,14 @@ section {
 
 .isi-konten {
     /* border: 1px solid black; */
-    width: auto;
+    width: 80%;
 }
 
 
 
 .isi-konten p, .isi-konten h1{
-    border: 1px solid black;
-    width: 20%;
+    /* border: 1px solid black; */
+    /* width: 20%; */
 }
 
 img {
